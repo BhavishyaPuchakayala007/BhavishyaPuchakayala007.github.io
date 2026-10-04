@@ -1,0 +1,55 @@
+# Builds the site as plain files and publishes it to GitHub Pages on every push
+# to main. One-time setup: repo Settings → Pages → Source: "GitHub Actions".
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: oven-sh/setup-bun@v2
+      # Tells us where the site will live: "" at the root of a domain, or
+      # "/repo-name" for a project site.
+      - id: pages
+        uses: actions/configure-pages@v5
+      - run: bun install --frozen-lockfile
+      - run: bun run build
+        env:
+          STATIC_SITE: "1"
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          VITE_SITE_URL: ${{ steps.pages.outputs.base_url }}
+      # The sitemap, robots.txt and llms.txt carry the github.io address; if the
+      # site is served from somewhere else (a custom domain), point them there. .nojekyll stops Pages from skipping any files.
+      - run: |
+          sed -i "s|https://bhavishyapuchakayala007.github.io|${{ steps.pages.outputs.base_url }}|g" .output/public/sitemap.xml .output/public/robots.txt .output/public/llms.txt
+          touch .output/public/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .output/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

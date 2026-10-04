@@ -1,0 +1,40 @@
+# Bhavishya Puchakayala
+
+> Bhavishya Puchakayala is a mechanical engineering student at the Indian Institute of Technology Madras (B.Tech, 2025–2029) working on mechatronics, physical AI and product development. She builds machines that sense, think and act: a tendon-driven robotic hand teleoperated from a webcam, and speech recognition for dysarthric speech. She is based in Chennai, India.
+
+Website: https://bhavishyapuchakayala007.github.io
+LinkedIn: https://in.linkedin.com/in/bhavishya-puchakayala
+Hugging Face: https://huggingface.co/peekaboo10
+GitHub: https://github.com/BhavishyaPuchakayala007
+X: https://x.com/its_peekaboo
+
+## About
+
+Bhavishya Puchakayala studies mechanical engineering at IIT Madras, which she joined in July 2025 after cracking JEE Advanced 2025. Before that she studied MPC at New Vision Junior College (2023–2025), finishing with 987/1000, and ranked 583 in TG EAPCET 2025.
+
+Her work sits where mechanical engineering meets machine learning: computer vision and vision-language-action models driving physical hardware, and speech AI for assistive communication.
+
+She believes engineering is about learning from constraints, and that the most impactful people combine skills that rarely exist in one person: the builder who can pitch, the storyteller who can code. She writes on LinkedIn about engineering, physical AI, JEE and responsible AI.
+
+## Projects
+
+- HandSync: a physical AI pipeline for real-time robotic hand teleoperation. YOLOv8 and MediaPipe estimate 21 hand landmarks from a single RGB webcam and infer finger joint kinematics; these are mapped to low-latency actuator commands for a 10-DOF, tendon-driven, 3D-printed robotic hand. SmolVLA was adapted to prototype vision-language-action policies bridging perception and control. Built at IIT Madras.
+- TensorTribe (in progress): an AI-native assistive communication platform for low-resource dysarthric speech. It adapts self-supervised acoustic representation learning, transformer-based ASR, LoRA/PEFT and CTC, with a preprocessing pipeline covering voice activity detection, silence trimming, noise reduction and normalisation, and WER/CER-driven evaluation. Built at IIT Madras.
+- Drug-interaction detection: attention-based graph networks and classifiers for real-time, low-cost, high-accuracy drug-interaction prediction. Built as a team of two; 3rd place among the 2025 freshman batch at Problem Statement Maker 2026.
+
+Everything else (field notes and milestones): https://bhavishyapuchakayala007.github.io/work
+
+## Skills
+
+Python, NumPy, Matplotlib, scikit-learn, OpenCV, MediaPipe, machine learning, AutoCAD, Autodesk Fusion 360. Certification: Data Science in Python (DataCamp, June 2026).
+
+## FAQ
+
+### Who is Bhavishya Puchakayala?
+A mechanical engineering student at IIT Madras who works on mechatronics, physical AI and product development.
+
+### What has she built?
+HandSync (a webcam-teleoperated, tendon-driven robotic hand), TensorTribe (speech recognition for dysarthric speech, in progress) and attention-based graph networks for drug-interaction detection.
+
+### How do I contact her?
+On LinkedIn: https://in.linkedin.com/in/bhavishya-puchakayala

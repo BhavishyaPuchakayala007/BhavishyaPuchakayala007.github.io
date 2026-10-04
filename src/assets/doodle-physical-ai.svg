@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" fill="none" stroke="#1f1d1a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<style>@keyframes lift { 0%, 100% { transform: rotate(-1.5deg); } 50% { transform: rotate(2.5deg); } } @keyframes reach { 0%, 100% { transform: rotate(3deg); } 50% { transform: rotate(-4deg); } } .upper { transform-box: view-box; transform-origin: 330px 136px; animation: lift 3.4s ease-in-out infinite; } .fore { transform-box: view-box; transform-origin: 300px 84px; animation: reach 3.4s ease-in-out infinite; } @keyframes flow { to { stroke-dashoffset: -20; } } .flow { animation: flow 1.2s linear infinite; } @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } } .detect { animation: pulse 1.4s ease-in-out infinite; } .led { animation: pulse 1.1s infinite; } @keyframes rise { 0% { opacity: 0; transform: translateY(3px); } 50% { opacity: 1; } 100% { opacity: 0; transform: translateY(-5px); } } .steam { animation: rise 2.4s ease-in-out infinite; } @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
+  <path d="M8 172 H392"/>
+  <path d="M46 140 L44 172 h-7 M58 140 L60 172 h7"/>
+  <path d="M63 76 Q73 88 68 102" stroke-width="5.5"/>
+  <path d="M43 108 L37 126 L39 138"/>
+  <path d="M42 104 Q52 99 62 104 L66 142 H38 Z" fill="#f8f7f4"/>
+  <path d="M61 108 L71 122 L61 127"/>
+  <rect x="53" y="117" width="11" height="12" rx="2.5" fill="#f8f7f4" stroke-width="2.4"/>
+  <path class="steam" d="M56 111 q-3 -4 0 -8 M61 111 q-3 -4 0 -8" stroke="#9a958d" stroke-width="1.8"/>
+  <circle cx="52" cy="85" r="13" fill="#f8f7f4"/>
+  <path d="M39 87 Q37 68 52 68 Q67 68 65 87 Q60 77 52 77 Q44 77 39 87 Z" fill="#1f1d1a" stroke-width="2"/>
+  <path d="M45 88 q2.5 2.6 5 0 M54 88 q2.5 2.6 5 0 M48 93 q4 3.6 8 0" stroke-width="1.8"/>
+  <path d="M118 150 H262 M128 150 V172 M252 150 V172"/>
+  <path d="M140 128 V146 A10 4 0 0 0 160 146 V128" fill="#f8f7f4" stroke-width="2.4"/>
+  <ellipse cx="150" cy="128" rx="10" ry="4" fill="#f8f7f4" stroke-width="2.4"/>
+  <path d="M176 150 L188 127 L200 150 Z" fill="#f8f7f4" stroke-width="2.4"/>
+  <rect x="222" y="126" width="24" height="24" rx="2.5" fill="#2e90fa" stroke-width="2.4"/>
+  <path class="detect" d="M213 127 V117 H223 M245 117 H255 V127 M213 146 V156 H223 M245 156 H255 V146" stroke="#2e90fa" stroke-width="2.4"/>
+  <path d="M168 52 L215 116 M176 52 L253 116" stroke="#2e90fa" stroke-width="1.6" stroke-dasharray="2 6"/>
+  <path d="M172 6 V26"/>
+  <rect x="156" y="26" width="32" height="18" rx="5" fill="#f8f7f4"/>
+  <path d="M165 44 H179 L176 52 H168 Z" fill="#1f1d1a" stroke-width="2"/>
+  <circle class="led" cx="181" cy="33" r="2.2" fill="#ef4444" stroke="none"/>
+  <path d="M212 30 L236 20" stroke-width="1.2" opacity=".5"/>
+  <path d="M212 30 L236 43" stroke-width="1.2" opacity=".5"/>
+  <path d="M212 30 L236 66" stroke-width="1.2" opacity=".5"/>
+  <path d="M212 56 L236 20" stroke-width="1.2" opacity=".5"/>
+  <path d="M212 56 L236 43" stroke-width="1.2" opacity=".5"/>
+  <path d="M212 56 L236 66" stroke-width="1.2" opacity=".5"/>
+  <path d="M236 20 L260 43" stroke-width="1.2" opacity=".5"/>
+  <path d="M236 43 L260 43" stroke-width="1.2" opacity=".5"/>
+  <path d="M236 66 L260 43" stroke-width="1.2" opacity=".5"/>
+  <circle cx="212" cy="30" r="5" fill="#f8f7f4" stroke="#2e90fa" stroke-width="2.4"/>
+  <circle cx="212" cy="56" r="5" fill="#f8f7f4" stroke="#2e90fa" stroke-width="2.4"/>
+  <circle cx="236" cy="20" r="5" fill="#f8f7f4" stroke="#2e90fa" stroke-width="2.4"/>
+  <circle cx="236" cy="43" r="5" fill="#f8f7f4" stroke="#2e90fa" stroke-width="2.4"/>
+  <circle cx="236" cy="66" r="5" fill="#f8f7f4" stroke="#2e90fa" stroke-width="2.4"/>
+  <circle cx="260" cy="43" r="5" fill="#f8f7f4" stroke="#2e90fa" stroke-width="2.4"/>
+  <path class="flow" d="M188 35 C196 33 201 36 205 40 M266 44 C280 46 290 56 296 70" stroke="#2e90fa" stroke-width="2.2" stroke-dasharray="4 6"/>
+  <path d="M300 172 L308 150 H352 L360 172 Z" fill="#f8f7f4"/>
+  <rect x="316" y="136" width="28" height="16" rx="4" fill="#f8f7f4"/>
+  <g class="upper">
+    <path d="M330 136 L300 84" stroke-width="18"/><path d="M330 136 L300 84" stroke="#f8f7f4" stroke-width="12"/>
+    <g class="fore">
+      <path d="M300 84 L240 96" stroke-width="15"/><path d="M300 84 L240 96" stroke="#f8f7f4" stroke-width="9.5"/>
+      <rect x="226" y="92" width="22" height="12" rx="3" fill="#f8f7f4"/>
+      <path d="M230 104 v9 l4 6 M244 104 v9 l-4 6"/>
+      <circle cx="300" cy="84" r="8.5" fill="#f8f7f4"/><circle cx="300" cy="84" r="2.6" fill="#2e90fa" stroke="none"/>
+    </g>
+  </g>
+  <circle cx="330" cy="136" r="9" fill="#f8f7f4"/>
+  <circle cx="330" cy="136" r="2.6" fill="#1f1d1a"/>
+</svg>

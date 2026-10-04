@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" fill="none" stroke="#1f1d1a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<style>@keyframes wave { 0%, 100% { transform: skewY(0deg); } 50% { transform: skewY(-9deg); } } .flag { transform-box: fill-box; transform-origin: 0% 50%; animation: wave 1.6s ease-in-out infinite; } @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
+  <path d="M52 22 v8 M48 26 h8 M150 16 v6 M147 19 h6 M300 30 v8 M296 34 h8 M360 60 v6 M357 63 h6 M214 40 v6 M211 43 h6" stroke="#2e90fa" stroke-width="2"/>
+  <circle cx="96" cy="46" r="20" fill="#2e90fa" stroke-width="2.6"/>
+  <path d="M84 40 q6 -8 14 -4 q4 6 -4 8 q-8 2 -10 -4 Z M100 54 q8 -2 10 4 q-4 6 -10 2 Z" fill="#f8f7f4" stroke="none"/>
+  <path d="M-4 204 V150 Q200 90 404 150 V204 Z" fill="#eceae5"/>
+  <ellipse cx="60" cy="182" rx="15" ry="5" stroke="#9a958d" stroke-width="2"/><ellipse cx="238" cy="184" rx="20" ry="6" stroke="#9a958d" stroke-width="2"/><ellipse cx="366" cy="178" rx="12" ry="4" stroke="#9a958d" stroke-width="2"/>
+  <g stroke="#2e90fa" stroke-width="2" stroke-dasharray="5 5"><path d="M128 146 L166 138 L190 152 L150 162 Z"/><path d="M268 150 L306 144 L330 158 L290 166 Z"/><path d="M84 164 L118 156 L138 170 L102 180 Z"/></g>
+  <path d="M158 150 V132" stroke-width="2"/><path class="flag" d="M158 132 l14 4 l-14 5 Z" fill="#2e90fa" stroke-width="1.6"/>
+  <path d="M36 122 V146 M76 122 V140"/>
+  <rect x="26" y="88" width="60" height="36" rx="5" fill="#f8f7f4"/>
+  <path d="M42 114 V102 L53 93 L64 102 V114 Z" stroke-width="2.2"/><path d="M50 114 v-7 h6 v7" stroke-width="1.8"/>
+  <circle cx="74" cy="98" r="5" fill="#2e90fa" stroke-width="1.8"/>
+  <g transform="translate(312 52) scale(.5)">
+    <path d="M94 130 L80 160 H94 Z M122 130 L136 160 H122 Z" fill="#1f1d1a"/>
+    <path d="M108 40 C97 56 94 74 94 94 V154 H122 V94 C122 74 119 56 108 40 Z" fill="#f8f7f4" stroke-width="5"/>
+    <circle cx="108" cy="86" r="7.5" fill="#2e90fa" stroke-width="4"/>
+    <path d="M88 160 L78 176 M128 160 L138 176" stroke-width="5"/>
+  </g>
+  <g transform="translate(0 -50)">
+    <path d="M216 144 L214 172 h-7 M228 144 L230 172 h7" stroke-width="5"/>
+    <rect x="200" y="106" width="10" height="28" rx="3" fill="#f8f7f4"/>
+    <path d="M210 104 Q222 98 234 104 L237 144 H207 Z" fill="#f8f7f4"/>
+    <path d="M212 110 L204 128" stroke-width="5"/><path d="M232 110 L248 116" stroke-width="5"/>
+    <path d="M250 92 V168" stroke-width="2.4"/><path class="flag" d="M250 92 l16 5 l-16 6 Z" fill="#2e90fa" stroke-width="1.6"/>
+    <circle cx="222" cy="84" r="12" fill="#f8f7f4" stroke-width="2.4"/>
+    <path d="M210 86 Q208 69 222 69 Q236 69 234 86 Q229 77 222 77 Q215 77 210 86 Z" fill="#1f1d1a" stroke-width="2"/>
+    <path d="M216 87 q2.5 2.6 5 0 M224 87 q2.5 2.6 5 0 M219 92 q4 3 7 0" stroke-width="1.6"/>
+    <circle cx="222" cy="84" r="19"/>
+    <path d="M230 72 q6 4 7 11" stroke="#2e90fa" stroke-width="2.2"/>
+  </g>
+</svg>
