@@ -38,7 +38,7 @@ It needs Node 22 or newer.
 
 ## How it's deployed
 
-Live at [bhavishyapuchakayala007.github.io/portfolio](https://bhavishyapuchakayala007.github.io/portfolio/). The site is built as plain files, and `.github/workflows/pages.yml` rebuilds and publishes it to GitHub Pages on every push to `main`. In the repository, Settings → Pages → Source must be set to "GitHub Actions".
+Live at [bhavishyapuchakayala007.github.io](https://bhavishyapuchakayala007.github.io). The site is built as plain files, and `.github/workflows/pages.yml` rebuilds and publishes it to GitHub Pages on every push to `main`. In the repository, Settings → Pages → Source must be set to "GitHub Actions".
 
 If the site ever moves to a custom domain or a differently named repository, nothing needs editing: the workflow works out the address and writes it into the page tags, the sitemap, `robots.txt` and `llms.txt`.
 
